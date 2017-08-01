@@ -1,0 +1,8 @@
+Version 1.0 7/31/2017
+
+- horizonstal website slide credits: https://www.queness.com/post/356/create-a-vertical-horizontal-and-diagonal-sliding-content-website-with-jquery/page/1
+- set up frame of the website, got horizontal page sliding working
+- no horizontal sliding, only vertical sliding scroll bar
+- added some media queries
+- created and updated some of the pages too
+-
