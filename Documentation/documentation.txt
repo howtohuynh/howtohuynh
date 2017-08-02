@@ -5,4 +5,8 @@ Version 1.0 7/31/2017
 - no horizontal sliding, only vertical sliding scroll bar
 - added some media queries
 - created and updated some of the pages too
--
+
+Version 1.1 7/31/2017
+- changed color scheme and font and description
+- used photoshop to add an outline
+- still need to fix centering issue on different screen sizes 
