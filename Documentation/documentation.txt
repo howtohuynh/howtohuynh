@@ -10,3 +10,4 @@ Version 1.1 7/31/2017
 - changed color scheme and font and description
 - used photoshop to add an outline
 - still need to fix centering issue on different screen sizes 
+- http://blog.visme.co/website-color-schemes/
