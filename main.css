@@ -29,7 +29,7 @@ html, body {
     float: left; /* Allows for horizontal slide */
 /*    background-color: #F3F8F2;*/
     color: #E85A4F;
-/*    text-align: center;*/
+    text-align: center;
     
 }
  
@@ -37,7 +37,7 @@ html, body {
     color: black;
     font-size: 10px;
     top: 20%;
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     position: relative;
     text-decoration: none;
@@ -53,16 +53,27 @@ html, body {
     color: #E85A4F;
     text-decoration: none;
 }
+
+.brown-text {
+    color: #D8C3A5;
+    font-size: 40px;
+    display: inline;
+}
+
+.brown-text a{
+    color: #D8C3A5;
+    text-decoration: none;
+}
 /* HOME PAGE START */
 #home-page {
     font-family: Raleway, sans-serif;
     top: 20%;
-    text-align: center; 
 }
 
 #title {
     z-index: 3;
     position: relative;
+    width: 100%;
 }
 
 #name {
@@ -91,29 +102,67 @@ html, body {
     font-family: Raleway, sans-serif;
     color: #8e8d8a;
     top: 20%;
-    width: 45%;
 }
 #cover {
-    position: absolute;
-    text-align: center;
-    width: 100%
-}
-
-#picture {
-    text-align: left;
-    right: 70%;
-    position: absolute;
-}
-
-#cover-text{
     position: absolute;
     left: 0; 
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
-    width: 90%;
-    top: 35%;
+    width: 900px;
+    top: 75%;
+}
+
+#picture {
+    left: 15%;
+    position: relative;
+}
+
+#cover-text{
     text-align: right;
+    right: 15%;
+    position: relative;
+}
+
+#cover-bio{
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 900px;
+    top: 300px;
+    text-align: center;
+}
+
+#left-cover-bio {
+    float: left;
+    text-align: left;
+    font-size: 25px;
+    left: 15%;
+    position: relative;
+}
+
+#right-cover-bio {
+    float: right;
+    text-align: left;
+    font-size: 45px;
+    bottom: 10px;
+    right: 13%;
+    position: relative;
+    text-align: justify;
+}
+
+#cover-ending {
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 650px;
+    top: 525px;
+    text-align: center;
+    
 }
 
 .clear {
@@ -130,6 +179,7 @@ html, body {
     z-index: 1; /* For static navigation bar */
     font-family: Raleway, sans-serif;
     text-align: center;
+    background-color: #F3F8F2;
 }
  
 #navigation a{
@@ -147,13 +197,14 @@ html, body {
 }
  
 #navigation a:hover {
-    color:#E98074;
+/*    color:#E98074;*/
+    color:#D8C3A5;
     transition: 0.5s;
 }
 
 /* MEDIA QUERIES */
 
-@media (max-width: 699px){
+@media (max-width: 701px){
     .page-content {
         font-size: 20px;
         width: 100%;
@@ -189,10 +240,10 @@ html, body {
         color: #8e8d8a;
     }
     .red-text{
-        font-size: 13px;
+        font-size: 11px;
     }
     #about-page{
-        font-size: 10px;
+        font-size: 8px;
         font-family: Raleway, sans-serif;
         color: #8e8d8a;
         top: 20%;
@@ -201,27 +252,73 @@ html, body {
     #cover {
         position: absolute;
         text-align: center;
-        width: 100%
+        width: 400px
     }
 
     #picture {
-        text-align: left;
-        right: 31%;
+        text-align: center;
+/*        right: 36%;*/
         position: absolute;
     }
 
     #cover-text{
         position: absolute;
+        left: 70px; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 60%;
+        top: 35%;
+        text-align: right;
+    }
+    #cover-bio{
+        position: absolute;
         left: 0; 
         right: 0; 
         margin-left: auto; 
         margin-right: auto; 
-        width: 90%;
-        top: 35%;
-        text-align: right;
+        width: 300px;
+        top: 300px;
+        text-align: center;
     }
 
-    
+    #left-cover-bio {
+        float: left;
+        text-align: left;
+        font-size: 13px;
+        left: 1%;
+        position: relative;
+    }
+
+    #right-cover-bio {
+        float: right;
+        text-align: left;
+        font-size: 53px;
+        bottom: 109px;
+        left:5%;
+        position: relative;
+        text-align: justify;
+        line-height: 15px
+    }
+
+    #cover-ending {
+        position: absolute;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        font-size: 10px;
+        width: 300px;
+        top: 425px;
+        text-align: center;
+
+    }
+
+    .brown-text {
+        color: #D8C3A5;
+        font-size: 20px;
+        display: inline;
+}
     #navigation a{
         font-size: 10px;
         margin: 10px;
