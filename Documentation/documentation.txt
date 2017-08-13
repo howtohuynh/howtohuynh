@@ -33,3 +33,9 @@ Version 1.5 8/12/2017
 - finished contact page also (used FormSpree)
 - good reference: https://www.w3schools.com/css/css_form.asp
 - note: FontAwesome is AWESOME!!!
+
+Version 1.6 8/13/2017
+- added media queries
+- CSS is still messy, got to clean up, but i'll save that for a later time.
+- unofficially finished with my first attempt at a website? will probably revamp in a few months,
+but for now this should be okay..
